@@ -12,6 +12,6 @@ void main(){
   // ];
   // print(section1[2][2]);
   for(int i = 1; i<=10; i++){
-    print("2 x $i = ${i*2}");
+    print("2 x $i = ${i*5}");
   }
 }
