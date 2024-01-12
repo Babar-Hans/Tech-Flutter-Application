@@ -1,9 +1,12 @@
 void main(){
   List<String> topics =['Loop','DataTypes','Function'];
-  int numVal = 1;
+  String currentTopic = "Loop";
+  int numVal = -1;
   while(numVal < topics.length){ 
-    
-     print(topics[++numVal]);
-
+    if(topics[++numVal] == currentTopic){
+    print(topics[numVal]);
+    break;
+    }
+     
   }
 }
