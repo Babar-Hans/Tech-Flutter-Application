@@ -1,13 +1,11 @@
 void main(){
 
-chaiLeAo();
-chaiLeAo();
+chaiLeAo(2,2,"canteen");
+chaiLeAo(2,1,"Tea Stall");
 
 }
 
-chaiLeAo(){
-  int numOfTeaCups = 2;
-  String fromSource = "canteen";
-  int sugarAmount = 2;
+chaiLeAo(int numOfTeaCups,int sugarAmount, String fromSource){
+  
   print("chai lai aya $numOfTeaCups cups $fromSource sai $sugarAmount spoon cheeni dali hai");
 }
