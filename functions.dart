@@ -1,4 +1,11 @@
 void main(){
+
+chaiLeAo();
+chaiLeAo();
+
+}
+
+chaiLeAo(){
   int numOfTeaCups = 2;
   String fromSource = "canteen";
   int sugarAmount = 2;
