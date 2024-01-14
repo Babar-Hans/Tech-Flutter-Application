@@ -2,14 +2,15 @@ import 'dart:io';
 void main(){
   
   List<String> contact = []; 
+  int numIncreament1 = 0;
  while(true){
-  mainMenu(contact);
+  mainMenu(contact,numIncreament1);
  }                    
   
 }
 
-mainMenu(List<String> contact){
-   print("===Main Menu===");           
+mainMenu(List<String> contact, numIncreament){
+   print("===Main Menu=== ${numIncreament++}");           
   print("1. Add Contact");
   print("2. List Contact");
   print("Batao Kiya karn hai: ");
