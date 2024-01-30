@@ -11,7 +11,7 @@ void main(){
 //
 //cheeni dali hai");
 
-makeTeaNewQuetta(2,isQawa: true);
+makeTeaNewQuetta(2, isQawa: true);
 
 }
 bool makeTeaNewQuetta(int numOfCups,{int numOfSugarsSpoons = 2, bool isQawa = false}){
