@@ -4,7 +4,7 @@ void main(){
   if(isTeaReady == true){
     print("Shukriya Bhai !");
   }else{
-    print("Jaldi Chai Lao Bhai");
+    print("Jaldi Chai Lao Bhai!");
   }                         
 
 }
